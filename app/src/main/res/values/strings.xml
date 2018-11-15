@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjectDoa</string>
+    <string name="btn_adzan">Home</string>
+    <string name="btn_doa">Doa</string>
+    <string name="btn_profile">Profile</string>
+    <string name="salam">Assalamualaikum</string>
+    <string name="nama">Muhammad Fadhil Hilmi</string>
+    <string name="doa_title">Doa</string>
+    <string name="doa_subtitle">Artinya</string>
+    <string name="prodi">Informatika</string>
+    <string name="ttl">Jakarta, 27 April 1997</string>
+    <string name="kampus">STT Terpadu Nurul Fikri</string>
+    <string name="nim">0110216037</string>
+</resources>

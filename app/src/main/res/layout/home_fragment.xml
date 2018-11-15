@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="10dp">
+
+<RelativeLayout
+    android:id="@+id/rellayout"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/masjid3"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/salam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:text="Assalamu'alaikum"
+        android:textSize="14sp"
+        android:layout_marginBottom="6dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_below="@id/salam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="Muhammad Fadhil Hilmi"/>
+</RelativeLayout>
+
+
+<LinearLayout
+    android:id="@+id/doa_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/rellayout"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jadwal Sholat saat ini "
+        android:textStyle="italic"
+        android:padding="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylcer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</RelativeLayout>
